@@ -1,5 +1,5 @@
-fun main(){
-    print("Introduce una cantidad: ")
+fun main() {
+    print("Introduce la cantidad en miligramos: ")
     var cantidad = readLine()?.toInt()
     if (cantidad!! > 100){
         println("Felicidades, es una buena poción")
@@ -7,13 +7,20 @@ fun main(){
         println("La poción es mediocre, sangre sucia inmunda")
     }
 }
+    fun segunda() {
+        print("Escribe un número: ")
+        var numero = readLine()?.toInt()
+        var suma = 0
+        for (i in 1..numero!!) {
+            suma += i
+        }
+        println("La suma es $suma")
 
-fun segunda(){
-    print("Escribe un número: ")
-    var numero = readLine()?.toInt()
-    var suma = 0
-    for(i in 1 <= .. <=numero!!){
-        suma+=1
+        suma=0
+    var j=1
+    while (numero>0){
+        suma+=numero
+        numero--
     }
     println("La suma es $suma")
 }
