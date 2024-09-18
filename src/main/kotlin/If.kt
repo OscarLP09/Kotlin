@@ -12,5 +12,8 @@ fun segunda(){
     print("Escribe un número: ")
     var numero = readLine()?.toInt()
     var suma = 0
-    for(i in )
+    for(i in 1 <= .. <=numero!!){
+        suma+=1
+    }
+    println("La suma es $suma")
 }
