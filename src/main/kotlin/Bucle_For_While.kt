@@ -1,6 +1,6 @@
 fun main(){
     // Bucle For
-    /*
+
     print("Introduzca un número: ")
     var n = readLine()!!.toInt()   // Lee un número del usuario y lo convierte a un entero
     var suma = 0   // Inicializa una variable para almacenar la suma
@@ -9,7 +9,7 @@ fun main(){
         suma += i   // En cada iteración, suma el valor de 'i' a 'suma'
     }
     print("La suma es $suma")   // Imprime el resultado final de la suma
-    */
+
 
     // Bucle While
     print("Introduzca un número: ")

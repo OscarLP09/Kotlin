@@ -1,6 +1,6 @@
 //Bucle While y do-while
 
-/*fun main() {
+fun main() {
     var pizzaSlices = 0
     while ( pizzaSlices < 8) {
         pizzaSlices++
@@ -42,4 +42,4 @@ fun main() {
         if(w.startsWith("l"))
             println(w)
     }
-}*/
+}
